@@ -7,7 +7,7 @@ clear
 #repo=$3
 comment=${1}
 rama=${2}
-clon2=${3}
+clone=${3}
 
 # Validar estructura de Repositorio
    if [[ -z $comment ]]; then
@@ -21,8 +21,8 @@ clon2=${3}
    fi
 
 # Configuracion gobal del repositorio
-   git config --global user.email "giovanemere@gmail.com"
-   git config --global user.name "giovanemere"
+   git config --global user.email "norelyj237@gmail.com"
+   git config --global user.name "NorelyJ"
    git config --global core.autocrlf false
 
 # Preguntar si desea Clonar
